@@ -1,0 +1,39 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-color: hsl(212, 45%, 89%);
+    font-family: outfit, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.container{
+    width: 320px;
+    padding: 16px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow:  3px 3px 15px 0.2px#8da3ba;
+    display: flex;
+    gap: 20px;
+    background: hsl(0, 0%, 100%);
+    flex-direction: column;
+}
+h1{
+    font-weight: 700;
+    font-size: 20px;
+    color: hsl(218, 44%, 22%);
+}
+p{
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(216, 15%, 48%);
+}
+.qr-code{
+    border-radius: 10px;
+}
